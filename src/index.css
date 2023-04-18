@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;1,200&family=Source+Sans+Pro:wght@400;600;700&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;1,200&family=Source+Sans+Pro:wght@400;600;700&display=swap'); */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+body {
+  background: rgba(220, 220, 220, 0.5);
+}
+
+h1 {
+  color: #D01E1E;
+}
+
+ h2, h3, h4, p, a {
+  color: rgb(10, 6, 6);
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.btn {
+  padding: 12px 32px;
+  font-size: 1rem;
+  text-transform: uppercase;
+  background: #D01E1E;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 0.4rem;
+  transition: 0.2s ease-in-out;
+}
+
+.btn-light {
+  background: transparent;
+  color: #fff;
+}
+
+.btn:hover {
+  background-color: rgba(225, 225, 225, 0);
+  color: #000;
+  letter-spacing: 1.2px;
+  transition: 0.9s ease-in-out;
+}
+
+.logo img {
+  float: left;
+  max-width: 130px;
+  margin: 5px 20px 0 0;
+}
+
+@media screen and (max-width: 1040px) {
+  .logo img {
+    float: left;
+    max-width: 85px;
+    margin: 5px 20px 0 0;
+
+  }
+}

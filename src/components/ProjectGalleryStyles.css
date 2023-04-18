@@ -1,0 +1,55 @@
+.project-section {
+    width: 100%;
+    height: 100%;
+    padding: 1rem;
+    position: relative;
+}
+
+.project-name {
+    width: 100%;
+}
+
+.project-name h1 {
+    color: #de1010;
+    font-size: 1.3rem;
+}
+
+.herobtn a {
+    margin: 2rem;
+}
+
+.img-projects img {
+    width: 21%;
+    align-items: center;
+    aspect-ratio: 3/2;
+    object-fit: contain;
+    margin: 1rem;
+    transition: 2ms ease-in-out;
+
+}
+
+.img-projects img:hover {
+    transform: scale(1.2);
+    transition: 2ms ease-in-out;
+}
+
+.img-projects {
+    display: flex;
+    overflow-x: scroll;
+    border: 1px solid #de1010;
+    border-radius: 15px;
+}
+
+@media screen and (max-width:640px) {
+    .img-projects {
+        flex-direction: column;
+    }
+
+    .img-projects img {
+        width: 90%;
+        align-items: center;
+        aspect-ratio: auto;
+        object-fit: contain;
+
+    }
+}

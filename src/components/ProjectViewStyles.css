@@ -1,0 +1,39 @@
+.project-wrapper {
+    width: 100%;
+    height: 100%;
+    padding: 2rem;
+    text-align: center;
+    background-color: rgb(253, 253, 253);
+}
+
+.project-wrapper h1 {
+    color: #d01e1e;
+}
+
+.collaborations {
+    width: 100%;
+    overflow-x: scroll;
+    margin: 10px;
+}
+
+/* .collaborations img:hover {
+    transform: scale(1.08);
+    transition: 0.5s ease-in-out;
+} */
+
+.collaborations img {
+    width: 8%;
+    align-items: center;
+    aspect-ratio: 3/4;
+    object-fit: contain;
+    margin: 1rem;
+}
+
+@media screen and (max-width:640px) {
+
+    .collaborations img {
+        width: 80%;
+    }
+
+
+}

@@ -1,0 +1,154 @@
+.contact-wrapper {
+    width: 100%;
+    height: 100%;
+    padding: 130px 75px;
+    text-align: center;
+    /* background-image: url("../assets/watermark.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain; */
+}
+
+.contact-slider {
+    height: 100%;
+    width: 100%;
+    padding: 2rem;
+    background-color: rgba(204, 203, 203, 0.203);
+    border-radius: 20px;
+}
+
+.card-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+}
+
+.card {
+    border: 1.5px solid rgb(0, 0, 0);
+    border-radius: 3rem 1rem;
+    color: #d01e1e;
+    text-align: center;
+    padding: 0.7rem;
+    margin: 0 5rem;
+    transition: 0.6s ease-in-out;
+    box-shadow: 5px 5px rgba(218, 30, 30, 0.2);
+    background-color: rgba(204, 203, 203, 0.203);
+}
+
+.card:hover {
+    transition: none;
+    transform: none;
+}
+
+.location p {
+    text-align: left;
+}
+
+.card-container h3, h1 {
+    color: #d01e1e;
+    padding: 1rem;
+    /* line-height: 20px; */
+}
+
+.getintouch {
+    width: 100%;
+    height: 100%;
+    padding: 4rem 2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contactcard {
+    background-color: rgba(204, 203, 203, 0.203);
+    padding: 2rem;
+}
+
+.contactcard h3 {
+    color: #d01e1e;
+    font-size: 1.5rem;
+}
+
+.form-email {
+    width: 40%;
+
+}
+
+.form-email form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 2rem;
+    background-color: rgba(204, 203, 203, 0.203);
+
+}
+
+.form-email input {
+    width: 300px;
+    border: 1px solid #be9494;
+    border-radius: 10px;
+    padding: 0.4rem;
+}
+
+.form-email textarea {
+    width: 400px;
+    border: 1px solid #be9494;
+    border-radius: 10px;
+    padding: 0.4rem;
+    height: 100px;
+}
+
+.form-email label {
+    text-align: left;
+    color: #d01e1e;
+    font-weight: 400;
+}
+
+.form-email button {
+    padding: 0.4rem;
+    width: 100px;
+    background-color: #d01e1e;
+    color: #fff;
+    font-weight: 600;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+@media screen and (max-width:640px) {
+    .card-container {
+        flex-direction: column;
+    }
+
+    .card {
+        margin: 10px 0;
+    }
+
+    .contact-wrapper {
+        padding: 100px 50px;
+    }
+
+    .getintouch {
+        padding: 1rem;
+    }
+
+    .form-email {
+        width: 100%;
+    }
+
+    .form-email textarea {
+        max-width: 200px;
+    }
+
+    .form-email input {
+        max-width: 200px;
+    }
+
+    .getintouch {
+        flex-direction: column;
+        gap: 2rem;
+    }
+}
