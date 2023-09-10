@@ -7,6 +7,9 @@ import ValuesCard from '../components/ValuesCard'
 import ServiceCard from '../components/ServiceCard'
 import HeroVideo from '../components/HeroVideo'
 import ProjectView from '../components/ProjectView'
+import Consultants from '../components/Consultants'
+import PPM from '../components/PPM'
+
 
 
 const Home = () => {
@@ -16,8 +19,10 @@ const Home = () => {
         {/* <Hero/> */}
         <HeroVideo />
         <ServiceCard />
-        <ValuesCard />
         <ProjectView />
+        <ValuesCard />
+        <PPM />
+        <Consultants />
         <Footer />
     </div>
   )

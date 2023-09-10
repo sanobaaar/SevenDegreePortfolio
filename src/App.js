@@ -9,6 +9,8 @@ import Projects from "./routes/Projects";
 import Services from "./routes/Services";
 import Contact from "./routes/Contact";
 import CloudKitchen from "./routes/CloudKitchen";
+import Consultant from "./routes/Consultant";
+
 
 function App() {
   return (
@@ -16,11 +18,13 @@ function App() {
     <Routes>
       <Route path="/" element={<Home />}  />
       <Route path="/projects" element={<Projects />}  />
-      <Route path="/projects/cloudkitchen" element={<CloudKitchen />}  />
+      {/* <Route path="/projects/cloudkitchen" element={<CloudKitchen />}  /> */}
       <Route path="/industrial" element={<Home />}  />
 
       <Route path="/services" element={<Services />}  />
       <Route path="/contact" element={<Contact />}  />
+      <Route path="/consultant" element={<Consultant />}  />
+
 
 
     </Routes>

@@ -41,9 +41,7 @@ const Footer = () => {
                  <div className='phone'>
                     <BsFillTelephoneFill size={18} style={{color:"#000", marginRight:"1rem", marginLeft:"0"}} />
                     <div>
-                        <p>+966 50 977 9327</p>
-                        {/* <p>+966 56 278 3775</p> */}
-
+                      <p>+966 50 538 7622</p>
                     </div>
                 </div>
                  <div className='social'>

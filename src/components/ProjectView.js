@@ -15,6 +15,13 @@ import img11 from "../assets/mango.png"
 import img12 from "../assets/reefi.jpeg"
 import img13 from "../assets/services/stradivarious.png"
 import img14 from "../assets/services/cloudkitchens.png"
+import img15 from "../assets/ppm/boss-removebg-preview.png"
+import img16 from "../assets/ppm/marksandspencer-removebg-preview.png"
+import img17 from "../assets/ppm/watsons-removebg-preview.png"
+import img18 from "../assets/ppm/futtain-removebg-preview.png"
+import img19 from "../assets/ppm/mojah-removebg-preview.png"
+
+
 
 import {AiOutlineArrowRight} from "react-icons/ai"
 
@@ -44,6 +51,13 @@ const ProjectView = () => {
             <img className='img12' src={img12} alt='project-img'></img>
             <img className='img13' src={img13} alt='project-img'></img>
             <img className='img14' src={img14} alt='project-img'></img>
+            <img className='img15' src={img15} alt='project-img'></img>
+            <img className='img16' src={img16} alt='project-img'></img>
+            <img className='img17' src={img17} alt='project-img'></img>
+            <img className='img18' src={img18} alt='project-img'></img>
+            <img className='img19' src={img19} alt='project-img'></img>
+
+
 
 
              <div className='herobtn'>

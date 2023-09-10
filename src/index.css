@@ -12,11 +12,16 @@ body {
   background: rgba(220, 220, 220, 0.5);
 }
 
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
 h1 {
   color: #D01E1E;
 }
 
- h2, h3, h4, p, a {
+h2, h3, h4, p, a {
   color: rgb(10, 6, 6);
   text-decoration: none;
 }
