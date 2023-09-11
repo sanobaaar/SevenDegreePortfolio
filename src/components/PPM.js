@@ -31,9 +31,9 @@ const ProjectView = () => {
             <h1>PPM & Active Maintenance Services</h1>
 
             
-            <h2> <img src={pin} style={{width:'35px'}} alt="location-pin"/> Jeddah, Riyadh, Dammam</h2>
+            <h3> <img src={pin} style={{width:'35px'}} alt="location-pin"/> Jeddah, Riyadh, Dammam</h3>
 
-            <h2> <img src={store} style={{width:'35px'}} alt="store"/> Total Number of Stores - 37</h2>
+            <h3> <img src={store} style={{width:'35px'}} alt="store"/> Number of Stores - 37</h3>
 
     </div>
 
