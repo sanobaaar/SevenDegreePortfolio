@@ -38,6 +38,10 @@ function Navbar() {
             <li>
                 <Link to="/services">Services</Link>
             </li>
+
+            <li>
+                <Link to="/consultant">Consultancy</Link>
+            </li>
             <li>
                 <Link to="/contact">Contact Us</Link>
             </li>

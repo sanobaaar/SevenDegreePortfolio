@@ -3,6 +3,9 @@ import "./index.css";
 import { Routes, Route } from "react-router-dom";
 // import 'bootstrap/dist/css/bootstrap.min.css';
 
+import "@splidejs/splide/dist/css/splide.min.css";
+
+
 
 import Home from "./routes/Home";
 import Projects from "./routes/Projects";

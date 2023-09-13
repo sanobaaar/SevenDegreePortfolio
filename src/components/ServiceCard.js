@@ -14,8 +14,8 @@ const ServiceCard = () => {
 
             
             <h3>Seven Degree is a leading interior designing and contracting company in Saudi Arabia that handles Turnkey, FIT-OUT and MEP projects exceptionally. We specialize in store outlet designing, refurbishing, as well as providing top-notch contracting services to our clients. We pride ourselves on our attention to detail, reliability, and professionalism; committed to delivering outstanding customer service and building long-lasting relationships with our clients.</h3>
-                <br>
-                </br>
+                {/* <br>
+                </br> */}
              <h3>Trust us to bring your vision to life and create a space that is both beautiful and functional.</h3>
      </div>
         <div className="service-card-container">
