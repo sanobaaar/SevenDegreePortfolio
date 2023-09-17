@@ -20,16 +20,16 @@ const ServiceCard = () => {
      </div>
         <div className="service-card-container">
             <div className="card-slider1">
-                <h2>Design</h2>
+                <h1>Design</h1>
                 
                 
             </div>
             <div className="card-slider2">
-                <h2>Build</h2>
+                <h1>Build</h1>
     
             </div>
             <div className="card-slider3">
-                <h2> Renovate </h2>
+                <h1> Renovate </h1>
         
             </div>
         </div>

@@ -1,11 +1,11 @@
 .consult-container {
     width: 100%;
     height: 100%;
-    padding: 200px 50px 20px 50px;
+    padding: 180px 50px 20px 50px;
 }
 
 .consult-heading, .consult-content {
-    margin: 3rem;
+    margin: 1rem;
 }
 
 .card-group-consults {
@@ -20,12 +20,13 @@
 }
 
 .consult-card .card-title {
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 500;
 }
 
 .consult-card .card-text {
-    font-size: 25px;
+    font-size: 20px;
+    text-align: center;
 }
 
 
@@ -36,8 +37,8 @@
 }
 
 .consult-brands img {
-    width: 18%;
-    margin: 0 4rem;
+    width: 16%;
+    margin: 0 3rem;
 }
 
 .brand-img {
@@ -88,7 +89,7 @@
     }
 
     .consult-brands img {
-        width: 100%;
+        width: 50%;
         margin: 1rem 0;
     }
 

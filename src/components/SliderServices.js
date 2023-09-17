@@ -6,7 +6,7 @@ import img1 from "../assets/hero2.jpg"
 
 import img2 from "../assets/services/pexels-mike-van-schoonderwalt-5511097.jpg"
 import img3 from "../assets/services/pexels-ivan-babydov-7788508.jpg"
-import img4 from "../assets/services/pexels-rodolfo-quirós-2219024.jpg"
+import img4 from "../assets/services/floorwork.jpeg"
 import img5 from "../assets/services/pexels-expect-best-323781.jpg"
 import img6 from "../assets/services/pexels-anamul-rezwan-1145434.jpg"
 import img7 from "../assets/services/pexels-rene-asmussen-3990359.jpg"

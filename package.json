@@ -1,5 +1,6 @@
 {
   "name": "seven-degree-portfolio",
+  "homepage": "http://sevendegree.co/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

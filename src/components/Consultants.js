@@ -22,13 +22,13 @@ class HeroProject extends Component {
       </div>
       <div className="project-heading">
         <h1 style={{color:'#d01e1e'}}>Project Management & Consultancy</h1>
-        <h3>An unmatched experience of our capability and knowledge that delivers top-notch projects. Professionals with years of experience quantifying market research, honest feedbacks that will help your company save costs and deliver results.</h3>
+        <h3 style={{marginBottom : '2rem'}}>An unmatched experience of our capability and knowledge that delivers top-notch projects. Professionals with years of experience quantifying market research, honest feedbacks that will help your company save costs and deliver results.</h3>
 
 
       
-      <div className="resource-planning"><img src={img4} style={{width:'20px', color:'red'}} alt="arrow"/> <h2 style={{color : '#d01e1e'}}>Resource Planning</h2></div>
-      <div className="resource-planning"><img src={img4} style={{width:'20px', color:'red'}} alt="arrow"/> <h2 style={{color : '#d01e1e'}}>Supply Logistics</h2></div>
-      <div className="resource-planning"><img src={img4} style={{width:'20px', color:'red'}} alt="arrow"/> <h2 style={{color : '#d01e1e'}}>Contact with Tenants</h2></div>
+      <div className="resource-planning"><img src={img4} style={{width:'20px', color:'red'}} alt="arrow"/> <h3 style={{color : '#d01e1e'}}>Resource Planning</h3></div>
+      <div className="resource-planning"><img src={img4} style={{width:'20px', color:'red'}} alt="arrow"/> <h3 style={{color : '#d01e1e'}}>Supply Logistics</h3></div>
+      <div className="resource-planning"><img src={img4} style={{width:'20px', color:'red'}} alt="arrow"/> <h3 style={{color : '#d01e1e'}}>Contact with Tenants</h3></div>
       
 
 
@@ -66,7 +66,7 @@ class HeroProject extends Component {
       </Card>
     </CardGroup> */}
 
-    <div className='herobtn' style={{marginTop:'4rem'}}>
+    <div className='herobtn'>
                 <Link to="./consultant" className='btn'>Learn More</Link>
             </div> 
       </div>

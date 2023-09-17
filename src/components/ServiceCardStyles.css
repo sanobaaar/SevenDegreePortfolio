@@ -35,7 +35,7 @@
     display: flex;
     gap: 50px;
     width: 100%;
-    padding: 3rem;
+    /* margin: 2rem */
 }
 
 .herobtn {
@@ -54,10 +54,10 @@
     border: 1px solid #dadada;
     box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.2);
     transition: 0.2s;
-    padding: 163px 10px 15px;
-    width: 70%;
+    padding: 230px 10px 2px;
+    width: 100%;
     background:
-        linear-gradient(to bottom left, transparent 49.5%, #fff 50%) 0 130px/100% 120px,
+        linear-gradient(to bottom left, transparent 49.5%, #fff 50%) 0 200px/100% 110px,
         linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)),
         url(https://images.pexels.com/photos/1216589/pexels-photo-1216589.jpeg?auto=compress&cs=tinysrgb&w=800) top/100% auto no-repeat;
     background-repeat: no-repeat;
@@ -67,11 +67,11 @@
     border: 1px solid #dadada;
     box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.2);
     transition: 0.2s;
-    padding: 163px 10px 15px;
-    width: 70%;
+    padding: 230px 10px 2px;
+    width: 100%;
     height: 70%;
     background:
-        linear-gradient(to bottom left, transparent 49.5%, #fff 50%) 0 130px/100% 120px,
+        linear-gradient(to bottom left, transparent 49.5%, #fff 50%) 0 200px/100% 110px,
         linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)),
         url(https://images.pexels.com/photos/1249611/pexels-photo-1249611.jpeg?auto=compress&cs=tinysrgb&w=800) top/100% auto no-repeat;
     background-repeat: no-repeat;
@@ -81,11 +81,11 @@
     border: 1px solid #dadada;
     box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.2);
     transition: 0.2s;
-    padding: 163px 10px 15px;
-    width: 70%;
+    padding: 230px 10px 2px;
+    width: 100%;
     height: 70%;
     background:
-        linear-gradient(to bottom left, transparent 49.5%, #fff 50%) 0 130px/100% 120px,
+        linear-gradient(to bottom left, transparent 49.5%, #fff 30%) 0 200px/100% 110px,
         linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)),
         url(https://images.pexels.com/photos/1145434/pexels-photo-1145434.jpeg?auto=compress&cs=tinysrgb&w=800) top/100% auto no-repeat;
     background-repeat: no-repeat;
@@ -102,8 +102,9 @@
     }
 
     .card-slider1, .card-slider2, .card-slider3 {
-        width: 90%;
-        height: 90%;
+        width: 100%;
+        height: 100%;
+        padding: 218px 0px 1px;
     }
 
     .service-wrapper {

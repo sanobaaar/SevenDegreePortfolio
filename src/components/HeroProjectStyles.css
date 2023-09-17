@@ -28,13 +28,12 @@
     left: 157%;
     text-align: center;
     width: 70%;
-    gap: 3rem;
+    /* gap: 1rem; */
 }
 
-.project-hero h1 {
-    font-size: 2.4rem;
+/* .project-hero h1 {
     color: #de1010
-}
+} */
 
 .card-group-consult {
     width: 1140px;
