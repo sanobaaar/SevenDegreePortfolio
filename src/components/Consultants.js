@@ -8,6 +8,8 @@ import ProjectHero from "../assets/consultants/consultancy.jpg"
 import img1 from "../assets/consultants/resource.jpg"
 import img2 from "../assets/consultants/logistics.jpg"
 import img3 from "../assets/consultants/tenant.jpg"
+import img4 from "../assets/consultants/fastforward.png"
+
 import { Card, CardGroup } from "react-bootstrap"
 class HeroProject extends Component {
     render() {
@@ -23,7 +25,14 @@ class HeroProject extends Component {
         <h3>An unmatched experience of our capability and knowledge that delivers top-notch projects. Professionals with years of experience quantifying market research, honest feedbacks that will help your company save costs and deliver results.</h3>
 
 
-      <CardGroup className='card-group-consult'>
+      
+      <div className="resource-planning"><img src={img4} style={{width:'20px', color:'red'}} alt="arrow"/> <h2 style={{color : '#d01e1e'}}>Resource Planning</h2></div>
+      <div className="resource-planning"><img src={img4} style={{width:'20px', color:'red'}} alt="arrow"/> <h2 style={{color : '#d01e1e'}}>Supply Logistics</h2></div>
+      <div className="resource-planning"><img src={img4} style={{width:'20px', color:'red'}} alt="arrow"/> <h2 style={{color : '#d01e1e'}}>Contact with Tenants</h2></div>
+      
+
+
+      {/* <CardGroup className='card-group-consult'>
       <Card className='consult-card'>
         <Card.Img variant="top" src={img1} />
         <Card.Body>
@@ -55,7 +64,7 @@ class HeroProject extends Component {
           </Card.Text>
         </Card.Body>
       </Card>
-    </CardGroup>
+    </CardGroup> */}
 
     <div className='herobtn' style={{marginTop:'4rem'}}>
                 <Link to="./consultant" className='btn'>Learn More</Link>

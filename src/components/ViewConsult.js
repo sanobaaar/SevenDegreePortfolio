@@ -29,12 +29,17 @@ const ViewConsult = () => {
   return (
     <div className="consult-container">
         <div className="consult-heading">
-            <h1>Project Management</h1>
+            <h1 style={{padding:'0'}}>Your Consultancy Partners for Growth </h1>
         </div>
         <div className="consult-content">
-            <h2>specific aspects that differ significantly from managing the construction of entire buildings in the formula of general contracting. Failure to account for these differences can have a huge impact on the success of the project.
+            <h2> The Project Manager, who manages the construction site, deals with several important elements, a much larger budget, a team of specialized engineers and works with key project participants – the investor, designer, general contractor, construction supervision and local authorities.</h2>
+            <br></br>
 
-The Project Manager, who manages the construction site, deals with several important elements, a much larger budget, has a team of specialized engineers at his or her disposal and works with key project participants – the investor, designer, general contractor, construction supervision and local authorities.</h2>
+            <h2>The work of our Fitout Project Manager is fundamentally on building a facility from scratch and requires completely different competences and technical knowledge. The challenges of finishing large spaces in the highest quality, within the most favourable budget and preferably ahead of schedule. Difficult but not impossible. </h2>
+            <br></br>
+
+            <h1 style={{textAlign:'center'}}>“We take care of impossible things right away, and you have to wait a little while for miracles.”</h1>
+        
         </div>
 
         <div className="consult-brands">

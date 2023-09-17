@@ -8,16 +8,26 @@
     margin: 3rem;
 }
 
-/* .card-group-consult {
+.card-group-consults {
     width: 100%;
     height: 100%;
     padding: 50px;
-} */
+}
 
 .consult-card {
     border-radius: 20px;
     border: none;
 }
+
+.consult-card .card-title {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.consult-card .card-text {
+    font-size: 25px;
+}
+
 
 .consult-brands {
     width: 100%;
@@ -53,13 +63,13 @@
 }
 
 .brand-img .scroll {
-    animation: moveSlideshow 28s linear infinite;
+    animation: moveSlideshow 35s linear infinite;
 }
 
-.card-group-consults, .resource-heading {
+
+/* .card-group-consults, .resource-heading {
     display: none;
-}
-
+} */
 
 
 @keyframes moveSlideshow {
@@ -89,7 +99,7 @@
 
     .card-group-consults {
         width: 100%;
-        padding: 1.5rem;
+        padding: 2rem;
         margin: 0;
 
     }
